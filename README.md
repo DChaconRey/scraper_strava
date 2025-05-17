@@ -73,3 +73,4 @@ docker run -v $(pwd)/.env:/app/.env -v $(pwd)/results:/app/results strava-scrape
 MIT
 
 
+# scraper_strava
