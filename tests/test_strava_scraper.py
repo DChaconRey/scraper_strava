@@ -1,7 +1,7 @@
 import unittest
 import os
 import json
-from strava_scraper import StravaScraper
+from src.strava_scraper import StravaScraper
 from dotenv import load_dotenv
 
 class TestStravaScraper(unittest.TestCase):

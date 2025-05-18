@@ -35,9 +35,7 @@ class StravaScraper:
         # Configurar las cookies esenciales desde el archivo .env
         cookies = {
             '_strava4_session': os.getenv('_strava4_session', ''),
-            'sp': os.getenv('sp', ''),
-            '_currentH': os.getenv('_currentH', 'd3d3LnN0cmF2YS5jb20='),
-            '_strava_cbv3': os.getenv('_strava_cbv3', 'true')
+            '_currentH': os.getenv('_currentH', 'd3d3LnN0cmF2YS5jb20=')
         }
         
         # La cookie más importante es _strava4_session
